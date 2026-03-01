@@ -16,8 +16,7 @@ import matplotlib.patches as mpatches
 
 def dijkstra_tren(red_tren, estacion_inicio):
     """
-    Encuentra la ruta de MENOR DIFICULTAD/TRÁFICO
-    entre la estación de inicio y todas las demás.
+    Encuentra la ruta de tráfico entre la estación de inicio y todas las demás.
     """
     print(f"\n Estación de partida: {estacion_inicio}")
     print("Pesos = Nivel de tráfico (1=fluido ➜ 5=muy congestionado)\n")
